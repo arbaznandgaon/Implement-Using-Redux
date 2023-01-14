@@ -36,8 +36,9 @@ console.log(action)
    }
 
   return (
-    <div className="App">
-      <div className='mt-12 text-3xl space-x-2 space-y-3'>
+    <div className="App ">
+      <div className='mt-12 ml-[32rem] py-4 bg-purple-300 rounded-full h-[28rem] w-[28rem] text-3xl space-x-2 space-y-3'>
+      <div className='mt-32 space-x-3 space-y-3'>
       <h1 className="font-black text-4xl text-red-700">My counter</h1>
       <h1 className="font-black text-5xl text-gray-700"> {counter}</h1>
       <button className="px-2 font-black rounded-lg bg-yellow-400 text-purple-700" onClick={increment}>Increment</button>
@@ -45,6 +46,7 @@ console.log(action)
       <button className="px-2 font-black rounded-lg bg-yellow-400 text-purple-700"  onClick={Add}>Add</button>
       <button className="px-2 font-black rounded-lg bg-yellow-400 text-purple-700"  onClick={Sub}>Sub</button>
 
+      </div>
       </div>
 
     </div>
